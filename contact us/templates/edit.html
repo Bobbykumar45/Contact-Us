@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Edit</h2>
+    <form action="/update{{record.id}}" methods="POST">
+    <label>Name</label>
+    <input type="text" name="name" value="{{record.id}}"><br><br>
+    
+    <label>email</label>
+    <input type="email" name="email" value="{{record.id}}"><br><br>
+
+    <label>phone</label>
+    <input type="text" name="phone" value="{{record.id}}"><br><br>
+
+    <label>course</label>
+    <input type="text" name="course" value="{{record.id}}"><br><br>
+
+    <label><address></address></label>
+    <input type="text" name="address" value="{{record.id}}"><br><br>
+    
+    <label>message</label>
+    <input type="text" name="message" value="{{record.id}}"><br><br>
+
+    <button type="submit">update</button>
+    </form>
+    
+    <br>
+    <a href="/">Back to Home</a>
+
+</body>
+</html>
